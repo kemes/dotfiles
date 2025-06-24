@@ -206,15 +206,14 @@ mode "apps" {
         bindsym e exec thunar ; mode "default"
         bindsym d exec thunar smb://100.114.93.17/mikael/ ; mode "default"
         bindsym w exec google-chrome http://web.whatsapp.com ; mode "default"
+        bindsym s exec slack; mode "default"
         bindsym i exec i3-sensible-terminal -e vim ~/.config/i3/config ; mode "default"
-        bindsym c exec --no-startup-id ~/Downloads/FreeCAD_1.0.0-conda-Linux-x86_64-py311.AppImage ; mode "default"
+        bindsym c exec --no-startup-id ~/Downloads/FreeCAD_1.0.1-conda-Linux-x86_64-py311.AppImage ; mode "default"
         bindsym b exec --no-startup-id vlc ~/Downloads/aaaaaaaaaaaaa/all.m3u ; mode "default"
         bindsym m exec mousepad ; mode "default"
 		bindsym u exec --no-startup-id i3-sensible-terminal -e bash -c "sudo apt update && sudo apt install firefox slack-desktop google-chrome-stable -y" ; mode "default"
 		bindsym n exec thunar smb://asustor-nas/home ; mode "default"
 		bindsym o exec --no-startup-id "i3-msg 'workspace 3; append_layout ~/workspace-mooc.json'"; exec firefox; exec firefox; exec i3-sensible-terminal; mode "default"
-		bindsym 1 exec scalc ; mode "default"
-		bindsym 2 exec swriter ; mode "default"
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
