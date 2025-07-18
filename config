@@ -195,7 +195,7 @@ bar {
         status_command i3status
 }
 
-exec --no-startup-id xset r rate 250 50
+exec --no-startup-id xset r rate 350 35
 exec --no-startup-id xfce4-clipman & 
 for_window [class="Thunar"] floating enable, floating_maximum_size 800 x 600
 for_window [class="vlc"] floating enable, floating_maximum_size 200 x 300
